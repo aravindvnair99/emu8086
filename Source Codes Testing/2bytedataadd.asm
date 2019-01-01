@@ -1,5 +1,3 @@
-;Abhishek Venkata Sai KAndikatuu
-;BL.EN.U4CSE17003
 ;Add 2 3 byte numbers
 .MODEL small
 .STACK
@@ -14,14 +12,13 @@ mov cx,00h
 mov cl,N  
 clc ;clears flag value
 addition: mov al,n1[si]
-          mov ah,n2[si]
-          adc al,00h
-          clc
-          add al,ah
-          mov sum[di],al
-          inc si
-          inc di
-          loop addition
+		  mov ah,n2[si]
+		  adc al,00h
+		  clc
+		  add al,ah
+		  mov sum[di],al
+		  inc si
+		  inc di
+		  loop addition
 .EXIT
 END
-
