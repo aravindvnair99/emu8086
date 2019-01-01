@@ -1,4 +1,0 @@
-MOV AX,08
-MOV BX,05
-ADD AX,BX
-
