@@ -15,16 +15,16 @@ mov cx, 00
 mov cl, N
 mov al, array[si]
 
-check:	cmp N, 2
-		ja next
-	   .EXIT
+check: cmp N, 2
+        ja next
+        .EXIT
         next:
-			mov al, array[si]
-			add al, 10
-			mov array[si], al
-			inc si
-			inc si
-			loop check
+            mov al, array[si]
+            add al, 10 
+            mov array[si], al
+            inc si
+            inc si
+            loop check
 
 .EXIT
 
