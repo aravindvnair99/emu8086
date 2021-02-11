@@ -1,4 +1,4 @@
-# emu8086
+# emu8086 ![](https://komarev.com/ghpvc/?username=AravindVNair99&label=Views)
 Collection of beginner friendly emu8086 programs and examples based on Assembly
 
 # :book: How to use the repository?
